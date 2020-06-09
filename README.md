@@ -3,7 +3,7 @@ This project implements the stochastic volatility models used in [1] as well as 
 
 Let us start by explaining the models we work with. Let therefore S(t) denote the time t price of some (underlying) asset and let r(t) and q(t) denote the risk-free interest rate and the dividend yield respectively (both assumed deterministic functions of time). Under some standard assumptions we then have
 
-![dS](https://github.com/sigurdroemer/rough_volatility/blob/images/dS.png)
+![dS](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/dS.png)
 
 under the risk-neutral measure. Here V(t) is the instantaneous variance process and we let W's denote Brownian motions.
 
@@ -12,46 +12,46 @@ In this project we then consider the (risk-neutral) models for V(t) described be
 ### Heston
 The Heston model of [2] assumes
 
-![heston](https://github.com/sigurdroemer/rough_volatility/blob/images/heston.png)
+![heston](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/heston.png)
 
 where 
 
-![](https://github.com/sigurdroemer/rough_volatility/blob/images/image1.png)
+![](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/image1.png)
 
 ### Rough Heston
 The rough Heston model of [3] assumes
 
-![rHeston](https://github.com/sigurdroemer/rough_volatility/blob/images/rheston.png)
+![rHeston](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/rheston.png)
 
 where
 
-![](https://github.com/sigurdroemer/rough_volatility/blob/images/image2.png)
+![](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/image2.png)
 
 ### Rough Bergomi
 The rough Bergomi model of [4] assumes
 
-![rBergomi](https://github.com/sigurdroemer/rough_volatility/blob/images/rbergomi.png)
+![rBergomi](https://github.com/sigurdroemer/rough_volatility/readme_blob/images/rbergomi.png)
 
 where
 
-![](https://github.com/sigurdroemer/rough_volatility/blob/images/image3.png)
+![](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/image3.png)
 
 ### Extended rough Bergomi
 The extended rough Bergomi model assumes
 
-![rBergomiExt](https://github.com/sigurdroemer/rough_volatility/blob/images/rbergomi_ext_def.png)
+![rBergomiExt](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/rbergomi_ext_def.png)
 
 where
 
-![rBergomiExtFactors](https://github.com/sigurdroemer/rough_volatility/blob/images/rbergomi_ext_vfactors.png)
+![rBergomiExtFactors](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/rbergomi_ext_vfactors.png)
 
 and
 
-![](https://github.com/sigurdroemer/rough_volatility/blob/images/image4.png)
+![](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/image4.png)
 
 It is however natural to reexpress it in terms of the following parameters:
 
-![](https://github.com/sigurdroemer/rough_volatility/blob/images/image5.png)
+![](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/image5.png)
 
 This is also the parameterization used in the code.
 
@@ -69,11 +69,11 @@ With a neural network approximation one can compute an entire implied volatility
 
 The networks are also highly accurate as exemplified with the rough Bergomi model below:
 
-![](https://github.com/sigurdroemer/rough_volatility/blob/images/example_plot.jpg)
+![](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/example_plot.jpg)
 
 The parameters are: 
 
-![](https://github.com/sigurdroemer/rough_volatility/blob/images/parameters.JPG)
+![](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/parameters.JPG)
 
 A more detailed analysis of the approximation error can be found in the paper.
 
