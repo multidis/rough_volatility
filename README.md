@@ -30,7 +30,7 @@ where
 ### Rough Bergomi
 The rough Bergomi model of [4] assumes
 
-![rBergomi](https://github.com/sigurdroemer/rough_volatility/readme_blob/readme_images/rbergomi.png)
+![rBergomi](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/rbergomi.png)
 
 where
 
