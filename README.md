@@ -65,7 +65,7 @@ Thirdly, the code implements an interface for evaluating the neural networks for
 The network weights are located in the folder *.../code/neural_networks/data/neural_network_weights* if one wants to implement the neural networks in other languages. The training and test datasets are rather large (almost 30 GB in total) and can thus instead be downloaded from https://drive.google.com/open?id=1S7C8T7ak1_pTjeffC-Oynnjewxojyemp. To use the datasets in the project, place the files in this folder: *".../data/training_and_test_data"*.
 
 ### Speed and accuracy
-With a neural network approximation one can compute an entire implied volatility surface in around 4.15 x 10^(-4) seconds on a standard laptop (as of this date). A typical calibration to SPX option prices can then be done in less than a second. Read the paper for the details (or try it yourself).
+With a neural network approximation one can compute an entire implied volatility surface in around 1 millisecond on a standard laptop. A typical calibration to SPX option prices can then be done in less than a second. Read the paper for the details (or try it yourself).
 
 The networks are also highly accurate as exemplified with the rough Bergomi model below:
 
@@ -89,14 +89,14 @@ There are a number of scripts to help get you started. They are explained below.
 
 Remarks: 
 - The Matlab code was developed in version 2019a, the R code in version 3.4.3 and the Python code in version 3.7.1. There is no guarantee that the code will work in older versions.
-- Only the Matlab version of the neural network implementations have been optimised for speed. Thus this is the recommended version. 
+- Only the Matlab version of the neural network implementations have been optimised for speed. Thus this is the recommended version (although they are all fast).
 
 ## Main references
-1. Rømer, S. E. (2020), Historical Analysis of Rough Volatility Models to The SPX Market, 2020 .
+1. [TODO: ]
 2. Heston, S. L. (1993). “A closed-form solution for options with stochastic volatility with applications to bond and currency options”. In: Review of Financial Studies 6, pp. 327–343.
 3. Euch, O. E., J. Gatheral, and M. Rosenbaum (2019). “Roughening Heston”. In: Risk, pp. 84-89, May 2019.
 4. Bayer, C., P. Friz, and J. Gatheral (2016). “Pricing under rough volatility”. In: Quantitative Finance, 16(6):887-904.
-5. Horvath, B., A. Muguruza, and M. Tomas (2019). “Deep Learning Volatility”.
+5. Horvath, B., A. Muguruza, and M. Tomas (2019). “Deep Learning Volatility”. Working paper. Available at https://ssrn.com/abstract=3322085 (accessed 16th of June 2020).
 
 ## External packages and libraries
 The following external packages and libraries are included in the project:
