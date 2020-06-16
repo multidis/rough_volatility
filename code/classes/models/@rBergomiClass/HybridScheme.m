@@ -251,15 +251,8 @@ function paths = HybridScheme(H,rho,eta,xi,n,N,anti,retPts,rndNumbers,...
         if strcmpi(convMethod,'conv2')
             Y2 = conv2(weights,dW1(:, 1:end-1), 'full');
         elseif strcmpi(convMethod,'fft')
-            Y2 = ifft(bsxfun(@times,...
-                    fft([zeros(nIntervals-1,1);weights']),...
-                    fft([zeros(nIntervals-1,Nindep);dW1(:, 1:end-1)']) ))';
-            % Remark: The above line is mathematically equivalent to
-            % Y2 = ifft(fft([weights,zeros(1,nIntervals-1)])...
-            %         .*fft([dW1(1:Nindep,1:end-1),zeros(Nindep,nIntervals-1)],[],2),[],2);
-            % for the entries that we need (in practise there will be a
-            % small round-off error.
-            
+            Y2 = ifft(fft([weights,zeros(1,nIntervals-1)])...
+                    .*fft([dW1(1:Nindep,1:end-1),zeros(Nindep,nIntervals-1)],[],2),[],2);
         end
         clear weights;
 
