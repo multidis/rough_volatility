@@ -62,7 +62,7 @@ Secondly, there are Matlab scripts for generating large datasets of option price
 
 Thirdly, the code implements an interface for evaluating the neural networks for arbitrary model parameters (within the trained domain). The neural network interfaces are available in Matlab, Python and R. 
 
-The network weights are located in the folder *.../code/neural_networks/data/neural_network_weights* if one wants to implement the neural networks in other languages. The training and test datasets are rather large (almost 30 GB in total) and can thus instead be downloaded from https://drive.google.com/open?id=1S7C8T7ak1_pTjeffC-Oynnjewxojyemp. To use the datasets in the project, place the files in this folder: *".../data/training_and_test_data"*.
+The network weights are located in the folder *.../code/neural_networks/data/neural_network_weights* if one wants to implement the neural networks in other languages. The training and test datasets are rather large (almost 30 GB in total) and can thus instead be downloaded from https://drive.google.com/open?id=1S7C8T7ak1_pTjeffC-Oynnjewxojyemp. To use the datasets in the project, place the files in this folder: *".../code/neural_networks/data/training_and_test_data"*.
 
 ### Speed and accuracy
 With a neural network approximation one can compute an entire implied volatility surface in around 1 millisecond on a standard laptop. A typical calibration to SPX option prices can then be done in less than a second. Read the paper for the details (or try it yourself).
