@@ -21,7 +21,7 @@ where
 ### Rough Heston
 The rough Heston model of [3] assumes
 
-![rHeston](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/rheston.png)
+![rHeston](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/V_rheston.png)
 
 where
 
@@ -30,7 +30,7 @@ where
 ### Rough Bergomi
 The rough Bergomi model of [4] assumes
 
-![rBergomi](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/rbergomi.png)
+![rBergomi](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/V_rbergomi.png)
 
 where
 
