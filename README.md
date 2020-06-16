@@ -12,7 +12,7 @@ In this project we then consider the (risk-neutral) models for V(t) described be
 ### Heston
 The Heston model of [2] assumes
 
-![heston](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/heston.png)
+![heston](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/heston_2.png)
 
 where 
 
@@ -21,7 +21,7 @@ where
 ### Rough Heston
 The rough Heston model of [3] assumes
 
-![rHeston](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/V_rheston.png)
+![rHeston](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/rheston_2.png)
 
 where
 
@@ -30,7 +30,7 @@ where
 ### Rough Bergomi
 The rough Bergomi model of [4] assumes
 
-![rBergomi](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/V_rbergomi.png)
+![rBergomi](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/rbergomi_2.png)
 
 where
 
@@ -51,7 +51,7 @@ and
 
 It is however natural to reexpress it in terms of the following parameters:
 
-![](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/image5.png)
+![](https://github.com/sigurdroemer/rough_volatility/blob/readme_images/rho_eta_rbergomi_ext.png)
 
 This is also the parameterization used in the code.
 
