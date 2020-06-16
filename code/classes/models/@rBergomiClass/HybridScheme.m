@@ -256,7 +256,7 @@ function paths = HybridScheme(H,rho,eta,xi,n,N,anti,retPts,rndNumbers,...
                     fft([zeros(nIntervals-1,Nindep);dW1(:, 1:end-1)']) ))';
             % Remark: The above line is mathematically equivalent to
             % Y2 = ifft(fft([weights,zeros(1,nIntervals-1)])...
-            %         .*fft([dW(1:N,1:end-1),zeros(N,nIntervals-1)],[],2),[],2);
+            %         .*fft([dW1(1:Nindep,1:end-1),zeros(Nindep,nIntervals-1)],[],2),[],2);
             % for the entries that we need (in practise there will be a
             % small round-off error.
             
