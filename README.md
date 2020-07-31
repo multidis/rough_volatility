@@ -92,7 +92,7 @@ Remarks:
 - Only the Matlab version of the neural network implementations have been optimised for speed. Thus this is the recommended version (although they are all fast).
 
 ## Main references
-1. [TODO: ]
+1. Rømer, S.E., Historical analysis of rough volatility models to the SPX market, ???
 2. Heston, S. L. (1993). “A closed-form solution for options with stochastic volatility with applications to bond and currency options”. In: Review of Financial Studies 6, pp. 327–343.
 3. Euch, O. E., J. Gatheral, and M. Rosenbaum (2019). “Roughening Heston”. In: Risk, pp. 84-89, May 2019.
 4. Bayer, C., P. Friz, and J. Gatheral (2016). “Pricing under rough volatility”. In: Quantitative Finance, 16(6):887-904.
