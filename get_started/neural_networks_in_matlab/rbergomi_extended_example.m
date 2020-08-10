@@ -4,7 +4,7 @@ project_folder = fileparts(fileparts(fileparts(matlab.desktop.editor.getActiveFi
 addpath(genpath(project_folder));
 
 %% Load the extended rough Bergomi neural network(s):
-[model, Txi] = LoadrBergomiExtendedNeuralNetwork();
+[model, Txi] = LoadrBergomiExtendedNeuralNetwork(project_folder);
 
 % Inspect the model object:
 model
@@ -29,7 +29,7 @@ alpha = -0.45;
 beta = -0.35;
 eta = 2.1;
 rho = -0.90;
-xi = 0.25.^2;
+xi = 0.30.^2;
 par = [eta;rho;alpha;beta;repmat(xi,27,1)];
 
 % Evaluate the neural network:
