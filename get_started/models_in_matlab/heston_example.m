@@ -61,7 +61,7 @@ K_mat = exp(k_mat).*F.';
 % Now we plot the result:
 figure;
 surf(K_mat,T_mat,p);
-title('Put option prices under rough Bergomi');
+title('Put option prices under Heston');
 xlabel('Strike');
 ylabel('Expiration');
 zlabel('Price');
