@@ -1,4 +1,4 @@
-function model = LoadHestonNeuralNetwork()
+function model = LoadHestonNeuralNetwork(projectFolder)
 % Description: Loads the neural network based implementation of the Heston 
 % model. Inputs should be given in the order: kappa, vbar, eta, rho, v0.
 %
@@ -7,11 +7,7 @@ function model = LoadHestonNeuralNetwork()
 %
 
     % Locate files:
-    fileParts = regexp(matlab.desktop.editor.getActiveFilename,'\','split');
-    idxLast = find(strcmpi(fileParts,'rough_volatility'),1,'last');
-    filePartsSub = fileParts(1:idxLast);
-    project_folder = fullfile(filePartsSub{:});
-    codeFolder = [project_folder,'\code'];
+    codeFolder = [projectFolder,'\code'];
     dataFolder = [codeFolder,'\neural_networks\data'];
     weightsFolder = [dataFolder,'\neural_network_weights\heston'];
 
