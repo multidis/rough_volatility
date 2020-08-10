@@ -4,7 +4,7 @@ project_folder = fileparts(fileparts(fileparts(matlab.desktop.editor.getActiveFi
 addpath(genpath(project_folder));
 
 %% Load the Heston neural network(s):
-model = LoadHestonNeuralNetwork();
+model = LoadHestonNeuralNetwork(project_folder);
 
 % Inspect the model object:
 model
@@ -168,6 +168,7 @@ toc;
 
 %% Illustrate fit:
 % Pick an expiration:
+uniqT = unique(T_obs);
 T_plot = uniqT(4);
 
 % Plot:
