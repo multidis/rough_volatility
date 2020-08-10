@@ -4,7 +4,7 @@ project_folder = fileparts(fileparts(fileparts(matlab.desktop.editor.getActiveFi
 addpath(genpath(project_folder));
 
 %% Load the rough Bergomi neural network(s):
-[model, Txi] = LoadrBergomiNeuralNetwork();
+[model, Txi] = LoadrBergomiNeuralNetwork(project_folder);
 
 % Inspect the model object:
 model
@@ -28,7 +28,7 @@ cartProd = false;
 H = 0.1;
 eta = 2.1;
 rho = -0.90;
-xi = 0.15.^2;
+xi = 0.20.^2;
 par = [H;eta;rho;repmat(xi,27,1)];
 
 % Evaluate the neural network:
