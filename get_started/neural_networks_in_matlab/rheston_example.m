@@ -4,7 +4,7 @@ project_folder = fileparts(fileparts(fileparts(matlab.desktop.editor.getActiveFi
 addpath(genpath(project_folder));
 
 %% Load the rough Heston neural network(s):
-[model, Txi] = LoadrHestonNeuralNetwork();
+[model, Txi] = LoadrHestonNeuralNetwork(project_folder);
 
 % Inspect the model object:
 model
