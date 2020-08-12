@@ -1,4 +1,4 @@
-function [model, Txi] = LoadrBergomiNeuralNetwork()
+function [model, Txi] = LoadrBergomiNeuralNetwork(projectFolder)
 % Description: Loads the neural network based implementation of the rough Bergomi 
 % model. Inputs should be given in the order: H, eta, rho, xi1, xi2,..., xi27.
 %
@@ -8,11 +8,7 @@ function [model, Txi] = LoadrBergomiNeuralNetwork()
 %
 
     % Locate files:
-    fileParts = regexp(matlab.desktop.editor.getActiveFilename,'\','split');
-    idxLast = find(strcmpi(fileParts,'rough_volatility'),1,'last');
-    filePartsSub = fileParts(1:idxLast);
-    project_folder = fullfile(filePartsSub{:});
-    codeFolder = [project_folder,'\code'];
+    codeFolder = [projectFolder,'\code'];
     dataFolder = [codeFolder,'\neural_networks\data'];
     weightsFolder = [dataFolder,'\neural_network_weights\rbergomi'];
 
