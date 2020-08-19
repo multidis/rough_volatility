@@ -93,10 +93,10 @@ Remarks:
 
 ## Main references
 1. Rømer, S.E., Historical analysis of rough volatility models to the SPX market, ???
-2. Heston, S. L. (1993). “A closed-form solution for options with stochastic volatility with applications to bond and currency options”. In: Review of Financial Studies 6, pp. 327–343.
-3. Euch, O. E., J. Gatheral, and M. Rosenbaum (2019). “Roughening Heston”. In: Risk, pp. 84-89, May 2019.
-4. Bayer, C., P. Friz, and J. Gatheral (2016). “Pricing under rough volatility”. In: Quantitative Finance, 16(6):887-904.
-5. Horvath, B., A. Muguruza, and M. Tomas (2019). “Deep Learning Volatility”. Working paper. Available at https://ssrn.com/abstract=3322085 (accessed 16th of June 2020).
+2. Heston, S.L., A Closed-Form Solution for Options with Stochastic Volatility with Applications to Bond and Currency Options. Rev. Financ. Stud., 1993, 6(2), 327-343.
+3. El Euch, O., Gatheral, J. and Rosenbaum, M., Roughening Heston. Risk, May 2019, pp. 84-89.
+4. Bayer, C., Friz, P. and Gatheral, J., Pricing under rough volatility. Quant. Finance, 2016, 16(6), 887-904.
+5. Horvath, B., Muguruza, A. and Tomas, M., Deep Learning Volatility: A deep neural network perspective on pricing and calibration in (rough) volatility models. Working Paper, available at https://ssrn.com/abstract=3322085 (accessed 31 July 2020), 2019.
 
 ## External packages and libraries
 The following external packages and libraries are included in the project:
