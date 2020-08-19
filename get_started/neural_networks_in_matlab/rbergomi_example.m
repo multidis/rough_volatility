@@ -186,6 +186,7 @@ T_plot = uniqT(4);
 
 % Plot:
 idx = T_obs == T_plot;
+figure;
 plot(k_obs(idx),iv_obs(idx),'x','DisplayName','Observed');
 hold on;
 dk = (max(k_obs(idx)) - min(k_obs(idx)))/100;
