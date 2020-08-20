@@ -1,5 +1,5 @@
 If you decide to use this code in your research please cite this repository https://github.com/sigurdroemer/rough_volatility 
-and the paper [TODO].
+and the paper https://ssrn.com/abstract=3678235.
 
 The following external packages and libraries are included in this project:
 Adi Navve (2020). Pack & Unpack variables to & from structures with enhanced functionality 
