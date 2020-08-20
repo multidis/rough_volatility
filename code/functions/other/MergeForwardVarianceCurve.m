@@ -1,5 +1,5 @@
 function idxGrp = MergeForwardVarianceCurve(Txi,Tobs)
-% Description: Merges a piecewise flat sections of a forward variance curve 
+% Description: Merges piecewise flat sections of a forward variance curve 
 % to obtain a curve with longer flat sections all depending on the expirations 
 % that are observed. 
 %
