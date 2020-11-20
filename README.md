@@ -90,9 +90,7 @@ There are a number of scripts to help get you started. They are explained below.
 Remarks: 
 - The Matlab code was developed in version 2019a, the R code in version 3.4.3 and the Python code in version 3.7.1. There is no guarantee that the code will work in older versions.
 - Only the Matlab version of the neural network implementations have been optimised for speed. Thus this is the recommended version (although they are all fast).
-
-## Using this work for other projects
-If you decide to use this code in your research please cite this repository https://github.com/sigurdroemer/rough_volatility and the paper https://ssrn.com/abstract=3678235.
+- If you decide to use this code in your research please cite this repository https://github.com/sigurdroemer/rough_volatility and the paper https://ssrn.com/abstract=3678235.
 
 ## Main references
 1. Rømer, S.E., Historical analysis of rough volatility models to the SPX market, Working paper, available at https://ssrn.com/abstract=3678235, 2020.
