@@ -102,5 +102,8 @@ Remarks:
 The following external packages and libraries are included in the project:
 - Adi Navve (2020). Pack & Unpack variables to & from structures with enhanced functionality (https://www.mathworks.com/matlabcentral/fileexchange/31532-pack-unpack-variables-to-from-structures-with-enhanced-functionality), MATLAB Central File Exchange. Retrieved March 16, 2020.
 
+## Using this work
+If you decide to use this code in your research please cite this repository https://github.com/sigurdroemer/rough_volatility and the paper https://ssrn.com/abstract=3678235.
+
 ## Updates:
 16-June-2020 (commit number = f2c95a6):  Updated HybridScheme.m by improving code readability of FFT convolution. Implementation is equivalent to the previous version (commit number f2bad0f) up to round-off error. Test and training datasets are still computed under commit number f2bad0f.
